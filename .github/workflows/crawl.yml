@@ -41,6 +41,12 @@ jobs:
       - name: Generate reports
         run: npm run report
 
+      - name: Sync to Google Sheets
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+        run: npm run sheets
+
       - name: Commit and push results
         run: |
           git config user.name "github-actions[bot]"

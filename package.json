@@ -6,9 +6,11 @@
   "scripts": {
     "crawl": "node scripts/crawl.js",
     "report": "node scripts/generate-report.js",
-    "run": "node scripts/crawl.js && node scripts/generate-report.js"
+    "sheets": "node scripts/sync-sheets.js",
+    "run": "node scripts/crawl.js && node scripts/generate-report.js && node scripts/sync-sheets.js"
   },
   "dependencies": {
+    "googleapis": "^171.4.0",
     "lighthouse": "^12.0.0"
   }
 }

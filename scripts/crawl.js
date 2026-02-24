@@ -18,10 +18,9 @@ async function fetchPageSpeedInsights(url, strategy = "mobile") {
   );
   endpoint.searchParams.set("url", url);
   endpoint.searchParams.set("strategy", strategy);
-  endpoint.searchParams.set(
-    "category",
-    ["performance", "accessibility", "best-practices", "seo"].join(",")
-  );
+  for (const cat of ["performance", "accessibility", "best-practices", "seo"]) {
+    endpoint.searchParams.append("category", cat);
+  }
   if (PSI_API_KEY) {
     endpoint.searchParams.set("key", PSI_API_KEY);
   }

@@ -15,12 +15,12 @@ Automated daily Core Web Vitals tracking.
 
 | URL | Perf (Mobile) | Perf (Desktop) | LCP (Mobile) | CLS (Mobile) | TBT (Mobile) |
 |-----|--------------|----------------|-------------|-------------|-------------|
-| iq.bcitechstore.com | - | - | - | - | - |
-| ps.bcitechstore.com | - | - | - | - | - |
-| www.tracking.me | - | - | - | - | - |
-| theeyesongroup.com | - | - | - | - | - |
-| shakersa.com | - | - | - | - | - |
-| jo.bcitechstore.com | - | - | - | - | - |
+| iq.bcitechstore.com | 48 :red_circle: | 82 :orange_circle: | 6.98s | 0.075 | 461ms |
+| ps.bcitechstore.com | 46 :red_circle: | 56 :orange_circle: | 14.17s | 0.057 | 537ms |
+| www.tracking.me | 39 :red_circle: | 54 :orange_circle: | 15.38s | 0.000 | 663ms |
+| theeyesongroup.com | 41 :red_circle: | 60 :orange_circle: | 37.58s | 0.000 | 766ms |
+| shakersa.com | 26 :red_circle: | 36 :red_circle: | 16.65s | 0.005 | 4.89s |
+| jo.bcitechstore.com | 22 :red_circle: | 49 :red_circle: | 18.65s | 0.769 | 459ms |
 
 ## Historical Reports
 
@@ -32,4 +32,4 @@ _Not enough data yet. Trends will appear after 2+ days of monitoring._
 
 ---
 
-_Last updated: 2026-02-24T08:24:11.398Z_
+_Last updated: 2026-02-24T08:43:24.649Z_

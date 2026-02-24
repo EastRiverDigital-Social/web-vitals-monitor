@@ -2,157 +2,365 @@
   {
     "url": "https://iq.bcitechstore.com/",
     "date": "2026-02-24",
-    "timestamp": "2026-02-24T08:19:32.432Z",
-    "psi_mobile": null,
-    "psi_desktop": null,
-    "lighthouse_cli": {
-      "lcp_ms": 18148.062500000007,
-      "fcp_ms": 4681.514000000001,
-      "cls": 0.12267009937382611,
-      "tbt_ms": 2337.567,
-      "si_ms": 9691.58389883918,
-      "tti_ms": 18442.201900000007,
-      "performance_score": 0.25
-    },
-    "errors": [
-      {
-        "source": "psi_mobile",
-        "message": "PSI API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n    \"errors\": [\n      {\n        \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n        \"reason\": \"invalid\"\n      }\n    ],\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.BadRequest\",\n        \"fieldViolations\": [\n          {\n            \"field\": \"category\",\n            \"description\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+    "timestamp": "2026-02-24T08:26:39.065Z",
+    "psi_mobile": {
+      "lab": {
+        "lcp_ms": 6977.060838936264,
+        "fcp_ms": 3496.0287105092493,
+        "cls": 0.07487940306919726,
+        "tbt_ms": 461,
+        "si_ms": 10667.12621757869,
+        "tti_ms": 13071.310330385546
       },
-      {
-        "source": "psi_desktop",
-        "message": "PSI API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n    \"errors\": [\n      {\n        \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n        \"reason\": \"invalid\"\n      }\n    ],\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.BadRequest\",\n        \"fieldViolations\": [\n          {\n            \"field\": \"category\",\n            \"description\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
-      }
-    ]
+      "scores": {
+        "performance": 0.48,
+        "accessibility": 0.82,
+        "best_practices": 0.92,
+        "seo": 0.77
+      },
+      "field": null
+    },
+    "psi_desktop": {
+      "lab": {
+        "lcp_ms": 1687.5332654695844,
+        "fcp_ms": 901.0166327347922,
+        "cls": 0.07146180785925912,
+        "tbt_ms": 135,
+        "si_ms": 2838.68791550251,
+        "tti_ms": 2993.154472206446
+      },
+      "scores": {
+        "performance": 0.82,
+        "accessibility": 0.68,
+        "best_practices": 0.96,
+        "seo": 0.77
+      },
+      "field": null
+    },
+    "lighthouse_cli": {
+      "lcp_ms": 18110.411499999995,
+      "fcp_ms": 4161.257000000001,
+      "cls": 0.07682807877801048,
+      "tbt_ms": 1292.0175,
+      "si_ms": 9043.274759174652,
+      "tti_ms": 19013.4269,
+      "performance_score": 0.33
+    },
+    "errors": []
   },
   {
     "url": "https://ps.bcitechstore.com/",
     "date": "2026-02-24",
-    "timestamp": "2026-02-24T08:20:05.285Z",
-    "psi_mobile": null,
-    "psi_desktop": null,
-    "lighthouse_cli": {
-      "lcp_ms": 17784.030499999993,
-      "fcp_ms": 5110.753999999999,
-      "cls": 0.0779952065777373,
-      "tbt_ms": 2110.000000000002,
-      "si_ms": 12184.739342456021,
-      "tti_ms": 28607.90565,
-      "performance_score": 0.27
-    },
-    "errors": [
-      {
-        "source": "psi_mobile",
-        "message": "PSI API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n    \"errors\": [\n      {\n        \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n        \"reason\": \"invalid\"\n      }\n    ],\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.BadRequest\",\n        \"fieldViolations\": [\n          {\n            \"field\": \"category\",\n            \"description\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+    "timestamp": "2026-02-24T08:28:26.803Z",
+    "psi_mobile": {
+      "lab": {
+        "lcp_ms": 14169.55671193726,
+        "fcp_ms": 3477.013015854452,
+        "cls": 0.0574323330669553,
+        "tbt_ms": 536.5,
+        "si_ms": 9184.636025240548,
+        "tti_ms": 18042.4867186535
       },
-      {
-        "source": "psi_desktop",
-        "message": "PSI API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n    \"errors\": [\n      {\n        \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n        \"reason\": \"invalid\"\n      }\n    ],\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.BadRequest\",\n        \"fieldViolations\": [\n          {\n            \"field\": \"category\",\n            \"description\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+      "scores": {
+        "performance": 0.46,
+        "accessibility": 0.78,
+        "best_practices": 0.73,
+        "seo": 0.69
+      },
+      "field": {
+        "lcp_ms": 3579,
+        "fid_ms": null,
+        "inp_ms": 95,
+        "cls": 0.03,
+        "fcp_ms": 3159,
+        "ttfb_ms": null
       }
-    ]
+    },
+    "psi_desktop": {
+      "lab": {
+        "lcp_ms": 2732.052205082383,
+        "fcp_ms": 1161.0221974366036,
+        "cls": 0.07153845685213589,
+        "tbt_ms": 400.49999999999955,
+        "si_ms": 3614.0604718855657,
+        "tti_ms": 4423.596621123203
+      },
+      "scores": {
+        "performance": 0.56,
+        "accessibility": 0.67,
+        "best_practices": 0.77,
+        "seo": 0.69
+      },
+      "field": {
+        "lcp_ms": 3466,
+        "fid_ms": null,
+        "inp_ms": 49,
+        "cls": 0.18,
+        "fcp_ms": 3136,
+        "ttfb_ms": null
+      }
+    },
+    "lighthouse_cli": {
+      "lcp_ms": 16029.008000000002,
+      "fcp_ms": 3951.023999999999,
+      "cls": 0.06351324700060075,
+      "tbt_ms": 1478.5000000000018,
+      "si_ms": 9754.512252275876,
+      "tti_ms": 20276.43360000001,
+      "performance_score": 0.32
+    },
+    "errors": []
   },
   {
     "url": "https://www.tracking.me/",
     "date": "2026-02-24",
-    "timestamp": "2026-02-24T08:20:30.190Z",
-    "psi_mobile": null,
-    "psi_desktop": null,
-    "lighthouse_cli": {
-      "lcp_ms": 13919.289499999999,
-      "fcp_ms": 8069.289499999999,
-      "cls": 0,
-      "tbt_ms": 658.9999999999995,
-      "si_ms": 9097.480735275212,
-      "tti_ms": 15724.789499999999,
-      "performance_score": 0.4
-    },
-    "errors": [
-      {
-        "source": "psi_mobile",
-        "message": "PSI API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n    \"errors\": [\n      {\n        \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n        \"reason\": \"invalid\"\n      }\n    ],\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.BadRequest\",\n        \"fieldViolations\": [\n          {\n            \"field\": \"category\",\n            \"description\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+    "timestamp": "2026-02-24T08:30:02.476Z",
+    "psi_mobile": {
+      "lab": {
+        "lcp_ms": 15377.132956383743,
+        "fcp_ms": 8927.076069572784,
+        "cls": 0.00020853613652380747,
+        "tbt_ms": 662.5,
+        "si_ms": 12717.951567157988,
+        "tti_ms": 32860.28668306821
       },
-      {
-        "source": "psi_desktop",
-        "message": "PSI API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n    \"errors\": [\n      {\n        \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n        \"reason\": \"invalid\"\n      }\n    ],\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.BadRequest\",\n        \"fieldViolations\": [\n          {\n            \"field\": \"category\",\n            \"description\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+      "scores": {
+        "performance": 0.39,
+        "accessibility": 0.94,
+        "best_practices": 0.88,
+        "seo": 0.92
+      },
+      "field": {
+        "lcp_ms": 3867,
+        "fid_ms": null,
+        "inp_ms": null,
+        "cls": 0.05,
+        "fcp_ms": 2967,
+        "ttfb_ms": 1388
       }
-    ]
+    },
+    "psi_desktop": {
+      "lab": {
+        "lcp_ms": 1861.027087148802,
+        "fcp_ms": 937.0979565669498,
+        "cls": 0.049962946746879566,
+        "tbt_ms": 1691.4999999999977,
+        "si_ms": 2928.1535627200424,
+        "tti_ms": 8035.90653518571
+      },
+      "scores": {
+        "performance": 0.54,
+        "accessibility": 0.94,
+        "best_practices": 0.88,
+        "seo": 0.92
+      },
+      "field": {
+        "lcp_ms": 3302,
+        "fid_ms": null,
+        "inp_ms": null,
+        "cls": 0.1,
+        "fcp_ms": 2578,
+        "ttfb_ms": 1406
+      }
+    },
+    "lighthouse_cli": {
+      "lcp_ms": 15956.109499999995,
+      "fcp_ms": 8012.109499999999,
+      "cls": 0.00020853613652380747,
+      "tbt_ms": 2203.9999999999995,
+      "si_ms": 13478.818974643847,
+      "tti_ms": 16420.909499999998,
+      "performance_score": 0.27
+    },
+    "errors": []
   },
   {
     "url": "https://theeyesongroup.com/",
     "date": "2026-02-24",
-    "timestamp": "2026-02-24T08:20:59.490Z",
-    "psi_mobile": null,
-    "psi_desktop": null,
-    "lighthouse_cli": {
-      "lcp_ms": 48157.21200000004,
-      "fcp_ms": 6109.12675,
-      "cls": 0,
-      "tbt_ms": 1071.5,
-      "si_ms": 20670.168241373358,
-      "tti_ms": 54290.35777500002,
-      "performance_score": 0.33
-    },
-    "errors": [
-      {
-        "source": "psi_mobile",
-        "message": "PSI API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n    \"errors\": [\n      {\n        \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n        \"reason\": \"invalid\"\n      }\n    ],\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.BadRequest\",\n        \"fieldViolations\": [\n          {\n            \"field\": \"category\",\n            \"description\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+    "timestamp": "2026-02-24T08:32:10.901Z",
+    "psi_mobile": {
+      "lab": {
+        "lcp_ms": 37576.20524543543,
+        "fcp_ms": 3203.01569280995,
+        "cls": 0,
+        "tbt_ms": 766,
+        "si_ms": 18727.791021820478,
+        "tti_ms": 37598.70536932603
       },
-      {
-        "source": "psi_desktop",
-        "message": "PSI API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n    \"errors\": [\n      {\n        \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n        \"reason\": \"invalid\"\n      }\n    ],\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.BadRequest\",\n        \"fieldViolations\": [\n          {\n            \"field\": \"category\",\n            \"description\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+      "scores": {
+        "performance": 0.41,
+        "accessibility": 0.86,
+        "best_practices": 1,
+        "seo": 0.92
+      },
+      "field": {
+        "lcp_ms": 6028,
+        "fid_ms": null,
+        "inp_ms": 127,
+        "cls": null,
+        "fcp_ms": 5078,
+        "ttfb_ms": 1157
       }
-    ]
+    },
+    "psi_desktop": {
+      "lab": {
+        "lcp_ms": 7424.6482957532935,
+        "fcp_ms": 687.0629252268479,
+        "cls": 0.011050540308955189,
+        "tbt_ms": 263.9999999999993,
+        "si_ms": 2292.066875362704,
+        "tti_ms": 7678.303427513694
+      },
+      "scores": {
+        "performance": 0.6,
+        "accessibility": 0.93,
+        "best_practices": 1,
+        "seo": 0.92
+      },
+      "field": {
+        "lcp_ms": 4911,
+        "fid_ms": null,
+        "inp_ms": 66,
+        "cls": 0.01,
+        "fcp_ms": 2547,
+        "ttfb_ms": 826
+      }
+    },
+    "lighthouse_cli": {
+      "lcp_ms": 60574.492,
+      "fcp_ms": 10648.295,
+      "cls": 0,
+      "tbt_ms": 907.0000000000073,
+      "si_ms": 27980.598660867734,
+      "tti_ms": 62274.90700000001,
+      "performance_score": 0.34
+    },
+    "errors": []
   },
   {
     "url": "https://shakersa.com/",
     "date": "2026-02-24",
-    "timestamp": "2026-02-24T08:22:08.447Z",
-    "psi_mobile": null,
-    "psi_desktop": null,
-    "lighthouse_cli": {
-      "lcp_ms": 24015.487749999993,
-      "fcp_ms": 10371.052,
-      "cls": 0.05855720974784565,
-      "tbt_ms": 5570.500000000002,
-      "si_ms": 18641.62143187062,
-      "tti_ms": 58184.143625,
-      "performance_score": 0.25
-    },
-    "errors": [
-      {
-        "source": "psi_mobile",
-        "message": "PSI API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n    \"errors\": [\n      {\n        \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n        \"reason\": \"invalid\"\n      }\n    ],\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.BadRequest\",\n        \"fieldViolations\": [\n          {\n            \"field\": \"category\",\n            \"description\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+    "timestamp": "2026-02-24T08:34:14.056Z",
+    "psi_mobile": {
+      "lab": {
+        "lcp_ms": 16651.063074716625,
+        "fcp_ms": 5933.021410683628,
+        "cls": 0.0048962164631793925,
+        "tbt_ms": 4892.0011271243275,
+        "si_ms": 13242.63554650177,
+        "tti_ms": 48853.22056213505
       },
-      {
-        "source": "psi_desktop",
-        "message": "PSI API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n    \"errors\": [\n      {\n        \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n        \"reason\": \"invalid\"\n      }\n    ],\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.BadRequest\",\n        \"fieldViolations\": [\n          {\n            \"field\": \"category\",\n            \"description\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+      "scores": {
+        "performance": 0.26,
+        "accessibility": 0.77,
+        "best_practices": 0.54,
+        "seo": 0.77
+      },
+      "field": {
+        "lcp_ms": 18370,
+        "fid_ms": null,
+        "inp_ms": 537,
+        "cls": 0.12,
+        "fcp_ms": 17876,
+        "ttfb_ms": 16251
       }
-    ]
+    },
+    "psi_desktop": {
+      "lab": {
+        "lcp_ms": 2661.024871014325,
+        "fcp_ms": 1295.0111823165184,
+        "cls": 0.37707387042792256,
+        "tbt_ms": 442.49113126621,
+        "si_ms": 4021.144750747817,
+        "tti_ms": 7411.462042576829
+      },
+      "scores": {
+        "performance": 0.36,
+        "accessibility": 0.77,
+        "best_practices": 0.54,
+        "seo": 0.77
+      },
+      "field": {
+        "lcp_ms": 16826,
+        "fid_ms": null,
+        "inp_ms": 117,
+        "cls": 0.2,
+        "fcp_ms": 16373,
+        "ttfb_ms": 15146
+      }
+    },
+    "lighthouse_cli": {
+      "lcp_ms": 20897.073000000004,
+      "fcp_ms": 9969.483000000007,
+      "cls": 0.1591280110714936,
+      "tbt_ms": 5495.500000000007,
+      "si_ms": 18154.208640422323,
+      "tti_ms": 56366.916700000016,
+      "performance_score": 0.18
+    },
+    "errors": []
   },
   {
     "url": "https://jo.bcitechstore.com/",
     "date": "2026-02-24",
-    "timestamp": "2026-02-24T08:23:45.861Z",
-    "psi_mobile": null,
-    "psi_desktop": null,
-    "lighthouse_cli": {
-      "lcp_ms": 20163.23999999999,
-      "fcp_ms": 5218.940999999998,
-      "cls": 0.11979388121043612,
-      "tbt_ms": 543.5,
-      "si_ms": 10677.196132398869,
-      "tti_ms": 26303.298325000003,
-      "performance_score": 0.39
-    },
-    "errors": [
-      {
-        "source": "psi_mobile",
-        "message": "PSI API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n    \"errors\": [\n      {\n        \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n        \"reason\": \"invalid\"\n      }\n    ],\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.BadRequest\",\n        \"fieldViolations\": [\n          {\n            \"field\": \"category\",\n            \"description\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+    "timestamp": "2026-02-24T08:41:30.330Z",
+    "psi_mobile": {
+      "lab": {
+        "lcp_ms": 18652.082572630516,
+        "fcp_ms": 4501.0189510955315,
+        "cls": 0.7689367145395075,
+        "tbt_ms": 458.9999999999982,
+        "si_ms": 13301.468636827824,
+        "tti_ms": 18871.983587867777
       },
-      {
-        "source": "psi_desktop",
-        "message": "PSI API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n    \"errors\": [\n      {\n        \"message\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\",\n        \"reason\": \"invalid\"\n      }\n    ],\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.BadRequest\",\n        \"fieldViolations\": [\n          {\n            \"field\": \"category\",\n            \"description\": \"Invalid value at 'category' (type.googleapis.com/google.chrome.pagespeedonline.v5.PagespeedonlinePagespeedapiRunpagespeedRequest.Category), \\\"performance,accessibility,best-practices,seo\\\"\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+      "scores": {
+        "performance": 0.22,
+        "accessibility": 0.78,
+        "best_practices": 0.92,
+        "seo": 0.77
+      },
+      "field": {
+        "lcp_ms": 4498,
+        "fid_ms": null,
+        "inp_ms": 128,
+        "cls": 0.2,
+        "fcp_ms": 3804,
+        "ttfb_ms": 3310
       }
-    ]
+    },
+    "psi_desktop": {
+      "lab": {
+        "lcp_ms": 1401.0308082173456,
+        "fcp_ms": 902.0186716468761,
+        "cls": 0.7479999437224805,
+        "tbt_ms": 331.4957988794531,
+        "si_ms": 3916.765896195127,
+        "tti_ms": 3320.311569755574
+      },
+      "scores": {
+        "performance": 0.49,
+        "accessibility": 0.67,
+        "best_practices": 0.96,
+        "seo": 0.77
+      },
+      "field": {
+        "lcp_ms": 4456,
+        "fid_ms": null,
+        "inp_ms": 43,
+        "cls": 0.76,
+        "fcp_ms": 3937,
+        "ttfb_ms": 3461
+      }
+    },
+    "lighthouse_cli": {
+      "lcp_ms": 20750.950000000004,
+      "fcp_ms": 5246.236000000001,
+      "cls": 0.28587153690580763,
+      "tbt_ms": 858.9999999999982,
+      "si_ms": 11116.847066578199,
+      "tti_ms": 26630.038199999995,
+      "performance_score": 0.22
+    },
+    "errors": []
   }
 ]

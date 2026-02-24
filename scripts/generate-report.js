@@ -102,6 +102,8 @@ function generateDailyReport(date, results) {
       md += `| TBT | ${formatMs(psi_mobile?.lab?.tbt_ms)} | ${formatMs(psi_desktop?.lab?.tbt_ms)} |\n`;
       md += `| Speed Index | ${formatMs(psi_mobile?.lab?.si_ms)} | ${formatMs(psi_desktop?.lab?.si_ms)} |\n`;
       md += `| TTI | ${formatMs(psi_mobile?.lab?.tti_ms)} | ${formatMs(psi_desktop?.lab?.tti_ms)} |\n`;
+      md += `| **Page Load Time** | **${formatMs(psi_mobile?.lab?.page_load_ms)}** | **${formatMs(psi_desktop?.lab?.page_load_ms)}** |\n`;
+      md += `| DOM Content Loaded | ${formatMs(psi_mobile?.lab?.dom_content_loaded_ms)} | ${formatMs(psi_desktop?.lab?.dom_content_loaded_ms)} |\n`;
       md += `\n`;
     }
 
@@ -132,6 +134,8 @@ function generateDailyReport(date, results) {
       md += `| TBT | ${formatMs(lighthouse_cli.tbt_ms)} |\n`;
       md += `| Speed Index | ${formatMs(lighthouse_cli.si_ms)} |\n`;
       md += `| TTI | ${formatMs(lighthouse_cli.tti_ms)} |\n`;
+      md += `| **Page Load Time** | **${formatMs(lighthouse_cli.page_load_ms)}** |\n`;
+      md += `| DOM Content Loaded | ${formatMs(lighthouse_cli.dom_content_loaded_ms)} |\n`;
       md += `\n`;
     }
 
@@ -167,17 +171,18 @@ function generateSummaryReadme(allResults) {
   }
 
   md += `\n## Latest Results (${latestDate})\n\n`;
-  md += `| URL | Perf (Mobile) | Perf (Desktop) | LCP (Mobile) | CLS (Mobile) | TBT (Mobile) |\n`;
-  md += `|-----|--------------|----------------|-------------|-------------|-------------|\n`;
+  md += `| URL | Perf (Mobile) | Perf (Desktop) | Page Load (Mobile) | Page Load (Desktop) | LCP (Mobile) | CLS (Mobile) |\n`;
+  md += `|-----|--------------|----------------|-------------------|--------------------|--------------|--------------|\n`;
 
   for (const entry of latestResults) {
     const shortUrl = entry.url.replace(/^https?:\/\//, "").replace(/\/$/, "");
     const mPerf = entry.psi_mobile?.scores?.performance;
     const dPerf = entry.psi_desktop?.scores?.performance;
+    const mLoad = entry.psi_mobile?.lab?.page_load_ms;
+    const dLoad = entry.psi_desktop?.lab?.page_load_ms;
     const mLcp = entry.psi_mobile?.lab?.lcp_ms;
     const mCls = entry.psi_mobile?.lab?.cls;
-    const mTbt = entry.psi_mobile?.lab?.tbt_ms;
-    md += `| ${shortUrl} | ${scoreEmoji(mPerf)} | ${scoreEmoji(dPerf)} | ${formatMs(mLcp)} | ${formatCLS(mCls)} | ${formatMs(mTbt)} |\n`;
+    md += `| ${shortUrl} | ${scoreEmoji(mPerf)} | ${scoreEmoji(dPerf)} | ${formatMs(mLoad)} | ${formatMs(dLoad)} | ${formatMs(mLcp)} | ${formatCLS(mCls)} |\n`;
   }
 
   md += `\n## Historical Reports\n\n`;

@@ -37,6 +37,8 @@ function extractMetrics(psiData) {
 
   // Lab metrics from Lighthouse
   const audits = lighthouseResult?.audits || {};
+  // Observed load timings from the metrics audit
+  const metricsDetails = audits["metrics"]?.details?.items?.[0] || {};
   const lab = {
     lcp_ms: audits["largest-contentful-paint"]?.numericValue ?? null,
     fcp_ms: audits["first-contentful-paint"]?.numericValue ?? null,
@@ -44,6 +46,8 @@ function extractMetrics(psiData) {
     tbt_ms: audits["total-blocking-time"]?.numericValue ?? null,
     si_ms: audits["speed-index"]?.numericValue ?? null,
     tti_ms: audits["interactive"]?.numericValue ?? null,
+    page_load_ms: metricsDetails.observedLoad ?? null,
+    dom_content_loaded_ms: metricsDetails.observedDomContentLoaded ?? null,
   };
 
   // Scores
@@ -93,6 +97,7 @@ async function runLighthouseCLI(url) {
     });
 
     const audits = result?.lhr?.audits || {};
+    const metricsDetails = audits["metrics"]?.details?.items?.[0] || {};
     return {
       lcp_ms: audits["largest-contentful-paint"]?.numericValue ?? null,
       fcp_ms: audits["first-contentful-paint"]?.numericValue ?? null,
@@ -101,6 +106,8 @@ async function runLighthouseCLI(url) {
       si_ms: audits["speed-index"]?.numericValue ?? null,
       tti_ms: audits["interactive"]?.numericValue ?? null,
       performance_score: result?.lhr?.categories?.performance?.score ?? null,
+      page_load_ms: metricsDetails.observedLoad ?? null,
+      dom_content_loaded_ms: metricsDetails.observedDomContentLoaded ?? null,
     };
   } finally {
     await chrome.kill();

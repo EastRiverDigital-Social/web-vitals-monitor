@@ -1,0 +1,50 @@
+name: Daily Web Vitals Crawl
+
+on:
+  schedule:
+    # Runs every day at 6:00 AM UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+
+      - name: Run crawl
+        env:
+          PSI_API_KEY: ${{ secrets.PSI_API_KEY }}
+          CHROME_PATH: /usr/bin/google-chrome
+        run: npm run crawl
+
+      - name: Generate reports
+        run: npm run report
+
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add results/ reports/ README.md
+          git diff --staged --quiet || git commit -m "chore: web vitals crawl $(date -u +%Y-%m-%d)"
+          git push

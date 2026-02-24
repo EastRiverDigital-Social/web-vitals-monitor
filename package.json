@@ -1,0 +1,14 @@
+{
+  "name": "web-vitals-monitor",
+  "version": "1.0.0",
+  "description": "Daily Core Web Vitals monitoring for tracked URLs",
+  "private": true,
+  "scripts": {
+    "crawl": "node scripts/crawl.js",
+    "report": "node scripts/generate-report.js",
+    "run": "node scripts/crawl.js && node scripts/generate-report.js"
+  },
+  "dependencies": {
+    "lighthouse": "^12.0.0"
+  }
+}

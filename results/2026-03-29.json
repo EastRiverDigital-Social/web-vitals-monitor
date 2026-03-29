@@ -1,0 +1,368 @@
+[
+  {
+    "url": "https://iq.bcitechstore.com/",
+    "date": "2026-03-29",
+    "timestamp": "2026-03-29T06:58:38.061Z",
+    "psi_mobile": {
+      "lab": {
+        "lcp_ms": 21773.066381725228,
+        "fcp_ms": 3774.0107142433694,
+        "cls": 0.024832999999999997,
+        "tbt_ms": 113,
+        "si_ms": 15300.811263820833,
+        "tti_ms": 22155.56756960873,
+        "page_load_ms": 9104,
+        "dom_content_loaded_ms": 9101
+      },
+      "scores": {
+        "performance": 0.57,
+        "accessibility": 0.79,
+        "best_practices": 0.92,
+        "seo": 0.77
+      },
+      "field": {
+        "lcp_ms": 5891,
+        "fid_ms": null,
+        "inp_ms": 161,
+        "cls": 0.03,
+        "fcp_ms": 5001,
+        "ttfb_ms": 3942
+      }
+    },
+    "psi_desktop": {
+      "lab": {
+        "lcp_ms": 1921.0496335039966,
+        "fcp_ms": 921.0226587735632,
+        "cls": 0.070521,
+        "tbt_ms": 63.5,
+        "si_ms": 3128.065131647484,
+        "tti_ms": 2836.5213751367237,
+        "page_load_ms": 3943,
+        "dom_content_loaded_ms": 3325
+      },
+      "scores": {
+        "performance": 0.81,
+        "accessibility": 0.74,
+        "best_practices": 0.96,
+        "seo": 0.77
+      },
+      "field": null
+    },
+    "lighthouse_cli": {
+      "lcp_ms": 13333.717499999999,
+      "fcp_ms": 3600.7174999999997,
+      "cls": 0.06367199999999999,
+      "tbt_ms": 958.5,
+      "si_ms": 8772.0757487839,
+      "tti_ms": 15369.217500000002,
+      "performance_score": 0.38,
+      "page_load_ms": 3823,
+      "dom_content_loaded_ms": 3395
+    },
+    "errors": []
+  },
+  {
+    "url": "https://ps.bcitechstore.com/",
+    "date": "2026-03-29",
+    "timestamp": "2026-03-29T07:00:23.891Z",
+    "psi_mobile": {
+      "lab": {
+        "lcp_ms": 12151.044427839835,
+        "fcp_ms": 4223.014621820703,
+        "cls": 0.033856,
+        "tbt_ms": 626.0000000000018,
+        "si_ms": 10573.699042074335,
+        "tti_ms": 18632.59294071816,
+        "page_load_ms": 3806,
+        "dom_content_loaded_ms": 3052
+      },
+      "scores": {
+        "performance": 0.42,
+        "accessibility": 0.78,
+        "best_practices": 0.73,
+        "seo": 0.69
+      },
+      "field": {
+        "lcp_ms": 3595,
+        "fid_ms": null,
+        "inp_ms": 101,
+        "cls": 0.03,
+        "fcp_ms": 3063,
+        "ttfb_ms": 2651
+      }
+    },
+    "psi_desktop": {
+      "lab": {
+        "lcp_ms": 2001.0127840733057,
+        "fcp_ms": 816.0045276926292,
+        "cls": 0.06705,
+        "tbt_ms": 1060.5156716427944,
+        "si_ms": 4189.075914853589,
+        "tti_ms": 5458.595656042528,
+        "page_load_ms": 5326,
+        "dom_content_loaded_ms": 4113
+      },
+      "scores": {
+        "performance": 0.51,
+        "accessibility": 0.67,
+        "best_practices": 0.77,
+        "seo": 0.69
+      },
+      "field": {
+        "lcp_ms": 3755,
+        "fid_ms": null,
+        "inp_ms": 44,
+        "cls": 0.16,
+        "fcp_ms": 3094,
+        "ttfb_ms": 2609
+      }
+    },
+    "lighthouse_cli": {
+      "lcp_ms": 18298.364000000012,
+      "fcp_ms": 5111.888000000001,
+      "cls": 0.035849,
+      "tbt_ms": 1119.0000000000018,
+      "si_ms": 10352.631903263718,
+      "tti_ms": 24620.47512500001,
+      "performance_score": 0.34,
+      "page_load_ms": 3241,
+      "dom_content_loaded_ms": 2818
+    },
+    "errors": []
+  },
+  {
+    "url": "https://www.tracking.me/",
+    "date": "2026-03-29",
+    "timestamp": "2026-03-29T07:02:12.461Z",
+    "psi_mobile": {
+      "lab": {
+        "lcp_ms": 17176.086091823796,
+        "fcp_ms": 11326.056246658209,
+        "cls": 0.000209,
+        "tbt_ms": 342,
+        "si_ms": 11527.211860401065,
+        "tti_ms": 31478.40377384396,
+        "page_load_ms": 4815,
+        "dom_content_loaded_ms": 3353
+      },
+      "scores": {
+        "performance": 0.48,
+        "accessibility": 0.94,
+        "best_practices": 0.69,
+        "seo": 0.92
+      },
+      "field": {
+        "lcp_ms": 3630,
+        "fid_ms": null,
+        "inp_ms": null,
+        "cls": 0.05,
+        "fcp_ms": 2871,
+        "ttfb_ms": 1636
+      }
+    },
+    "psi_desktop": {
+      "lab": {
+        "lcp_ms": 1701.017914529803,
+        "fcp_ms": 1321.0137123561449,
+        "cls": 0.000034,
+        "tbt_ms": 472.5710501584051,
+        "si_ms": 2092.634567809291,
+        "tti_ms": 6021.952040205866,
+        "page_load_ms": 3760,
+        "dom_content_loaded_ms": 2359
+      },
+      "scores": {
+        "performance": 0.65,
+        "accessibility": 0.94,
+        "best_practices": 0.69,
+        "seo": 0.92
+      },
+      "field": {
+        "lcp_ms": 3001,
+        "fid_ms": null,
+        "inp_ms": null,
+        "cls": 0.1,
+        "fcp_ms": 2423,
+        "ttfb_ms": 1174
+      }
+    },
+    "lighthouse_cli": {
+      "lcp_ms": 24870.9365,
+      "fcp_ms": 16065.971000000001,
+      "cls": 0,
+      "tbt_ms": 860.8847500000011,
+      "si_ms": 16065.971000000001,
+      "tti_ms": 26559.710400000004,
+      "performance_score": 0.35,
+      "page_load_ms": 6189,
+      "dom_content_loaded_ms": 4849
+    },
+    "errors": []
+  },
+  {
+    "url": "https://theeyesongroup.com/",
+    "date": "2026-03-29",
+    "timestamp": "2026-03-29T07:06:01.488Z",
+    "psi_mobile": {
+      "lab": {
+        "lcp_ms": 20819.090865450897,
+        "fcp_ms": 3220.015404978918,
+        "cls": 0,
+        "tbt_ms": 1307,
+        "si_ms": 19401.245403754387,
+        "tti_ms": 51197.26756089992,
+        "page_load_ms": 8801,
+        "dom_content_loaded_ms": 7237
+      },
+      "scores": {
+        "performance": 0.35,
+        "accessibility": 0.86,
+        "best_practices": 1,
+        "seo": 0.92
+      },
+      "field": {
+        "lcp_ms": 6035,
+        "fid_ms": null,
+        "inp_ms": 129,
+        "cls": null,
+        "fcp_ms": 5242,
+        "ttfb_ms": 1167
+      }
+    },
+    "psi_desktop": {
+      "lab": {
+        "lcp_ms": 5061.148864478528,
+        "fcp_ms": 686.7094456417403,
+        "cls": 0.003966,
+        "tbt_ms": 340.99999999999955,
+        "si_ms": 2930.942594726391,
+        "tti_ms": 5611.1130228956235,
+        "page_load_ms": 3824,
+        "dom_content_loaded_ms": 2031
+      },
+      "scores": {
+        "performance": 0.55,
+        "accessibility": 0.93,
+        "best_practices": 1,
+        "seo": 0.92
+      },
+      "field": {
+        "lcp_ms": 3521,
+        "fid_ms": null,
+        "inp_ms": 51,
+        "cls": 0.01,
+        "fcp_ms": 2474,
+        "ttfb_ms": 729
+      }
+    },
+    "lighthouse_cli": {
+      "lcp_ms": 60078.39749999996,
+      "fcp_ms": 9382.637,
+      "cls": 0,
+      "tbt_ms": 1189,
+      "si_ms": 16043.935245359444,
+      "tti_ms": 61852.41824999996,
+      "performance_score": 0.31,
+      "page_load_ms": 2636,
+      "dom_content_loaded_ms": 1261
+    },
+    "errors": []
+  },
+  {
+    "url": "https://shakersa.com/",
+    "date": "2026-03-29",
+    "timestamp": "2026-03-29T07:07:33.885Z",
+    "psi_mobile": null,
+    "psi_desktop": null,
+    "lighthouse_cli": {
+      "lcp_ms": null,
+      "fcp_ms": null,
+      "cls": null,
+      "tbt_ms": null,
+      "si_ms": null,
+      "tti_ms": null,
+      "performance_score": null,
+      "page_load_ms": null,
+      "dom_content_loaded_ms": null
+    },
+    "errors": [
+      {
+        "source": "psi_mobile",
+        "message": "PSI API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Lighthouse returned error: FAILED_DOCUMENT_REQUEST. Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Details: net::ERR_TIMED_OUT)\",\n    \"errors\": [\n      {\n        \"message\": \"Lighthouse returned error: FAILED_DOCUMENT_REQUEST. Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Details: net::ERR_TIMED_OUT)\",\n        \"domain\": \"lighthouse\",\n        \"reason\": \"lighthouseUserError\"\n      }\n    ]\n  }\n}\n"
+      },
+      {
+        "source": "psi_desktop",
+        "message": "PSI API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Lighthouse returned error: FAILED_DOCUMENT_REQUEST. Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Details: net::ERR_TIMED_OUT)\",\n    \"errors\": [\n      {\n        \"message\": \"Lighthouse returned error: FAILED_DOCUMENT_REQUEST. Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Details: net::ERR_TIMED_OUT)\",\n        \"domain\": \"lighthouse\",\n        \"reason\": \"lighthouseUserError\"\n      }\n    ]\n  }\n}\n"
+      }
+    ]
+  },
+  {
+    "url": "https://jo.bcitechstore.com/",
+    "date": "2026-03-29",
+    "timestamp": "2026-03-29T07:08:20.094Z",
+    "psi_mobile": {
+      "lab": {
+        "lcp_ms": 13051.735496884772,
+        "fcp_ms": 3485.181710995058,
+        "cls": 0.6625519999999999,
+        "tbt_ms": 129.5,
+        "si_ms": 11521.890055395423,
+        "tti_ms": 17312.925241292876,
+        "page_load_ms": 4905,
+        "dom_content_loaded_ms": 4076
+      },
+      "scores": {
+        "performance": 0.35,
+        "accessibility": 0.78,
+        "best_practices": 0.92,
+        "seo": 0.77
+      },
+      "field": {
+        "lcp_ms": 4864,
+        "fid_ms": null,
+        "inp_ms": 137,
+        "cls": 0.2,
+        "fcp_ms": 4204,
+        "ttfb_ms": 3783
+      }
+    },
+    "psi_desktop": {
+      "lab": {
+        "lcp_ms": 1841.0173559672903,
+        "fcp_ms": 754.0063112608326,
+        "cls": 0.74809,
+        "tbt_ms": 757.9974360502872,
+        "si_ms": 6170.350246122285,
+        "tti_ms": 4345.33471193458,
+        "page_load_ms": 8520,
+        "dom_content_loaded_ms": 6671
+      },
+      "scores": {
+        "performance": 0.32,
+        "accessibility": 0.68,
+        "best_practices": 0.96,
+        "seo": 0.77
+      },
+      "field": {
+        "lcp_ms": 4702,
+        "fid_ms": null,
+        "inp_ms": 44,
+        "cls": 0.75,
+        "fcp_ms": 4250,
+        "ttfb_ms": 3996
+      }
+    },
+    "lighthouse_cli": {
+      "lcp_ms": 15368.593499999999,
+      "fcp_ms": 3564.5935,
+      "cls": 0.234233,
+      "tbt_ms": 757.0000000000014,
+      "si_ms": 10019.979472629026,
+      "tti_ms": 18079.3935,
+      "performance_score": 0.29,
+      "page_load_ms": 6237,
+      "dom_content_loaded_ms": 3658
+    },
+    "errors": []
+  }
+]

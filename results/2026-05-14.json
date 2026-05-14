@@ -1,0 +1,253 @@
+[
+  {
+    "url": "https://iq.bcitechstore.com/",
+    "date": "2026-05-14",
+    "timestamp": "2026-05-14T08:33:12.157Z",
+    "psi_mobile": {
+      "lab": {
+        "lcp_ms": 13501.096089100382,
+        "fcp_ms": 3779.0251141966905,
+        "cls": 0.12403600000000001,
+        "tbt_ms": 240.5,
+        "si_ms": 15673.008420174523,
+        "tti_ms": 13714.647399406298,
+        "page_load_ms": 8678,
+        "dom_content_loaded_ms": 7947
+      },
+      "scores": {
+        "performance": 0.49,
+        "accessibility": 0.82,
+        "best_practices": 0.96,
+        "seo": 0.77
+      },
+      "field": {
+        "lcp_ms": 4395,
+        "fid_ms": null,
+        "inp_ms": 179,
+        "cls": 0.03,
+        "fcp_ms": 3608,
+        "ttfb_ms": 2711
+      }
+    },
+    "psi_desktop": null,
+    "lighthouse_cli": {
+      "lcp_ms": 24743.843999999997,
+      "fcp_ms": 6110.844,
+      "cls": 0.02867,
+      "tbt_ms": 1517,
+      "si_ms": 10614.896551768776,
+      "tti_ms": 25096.343999999997,
+      "performance_score": 0.3,
+      "page_load_ms": 3816,
+      "dom_content_loaded_ms": 3813
+    },
+    "errors": [
+      {
+        "source": "psi_desktop",
+        "message": "PSI API error 500: {\n  \"error\": {\n    \"code\": 500,\n    \"message\": \"Lighthouse returned error: Something went wrong.\",\n    \"errors\": [\n      {\n        \"message\": \"Lighthouse returned error: Something went wrong.\",\n        \"domain\": \"lighthouse\",\n        \"reason\": \"lighthouseError\"\n      }\n    ]\n  }\n}\n"
+      }
+    ]
+  },
+  {
+    "url": "https://ps.bcitechstore.com/",
+    "date": "2026-05-14",
+    "timestamp": "2026-05-14T08:35:01.535Z",
+    "psi_mobile": null,
+    "psi_desktop": null,
+    "lighthouse_cli": {
+      "lcp_ms": 19852.870000000003,
+      "fcp_ms": 4312.11,
+      "cls": 0.025384,
+      "tbt_ms": 1226,
+      "si_ms": 15705.911836587646,
+      "tti_ms": 22055.4395,
+      "performance_score": 0.33,
+      "page_load_ms": 7899,
+      "dom_content_loaded_ms": 4859
+    },
+    "errors": [
+      {
+        "source": "psi_mobile",
+        "message": "PSI API error 500: {\n  \"error\": {\n    \"code\": 500,\n    \"message\": \"Lighthouse returned error: Something went wrong.\",\n    \"errors\": [\n      {\n        \"message\": \"Lighthouse returned error: Something went wrong.\",\n        \"domain\": \"lighthouse\",\n        \"reason\": \"lighthouseError\"\n      }\n    ]\n  }\n}\n"
+      },
+      {
+        "source": "psi_desktop",
+        "message": "PSI API error 500: {\n  \"error\": {\n    \"code\": 500,\n    \"message\": \"Lighthouse returned error: Something went wrong.\",\n    \"errors\": [\n      {\n        \"message\": \"Lighthouse returned error: Something went wrong.\",\n        \"domain\": \"lighthouse\",\n        \"reason\": \"lighthouseError\"\n      }\n    ]\n  }\n}\n"
+      }
+    ]
+  },
+  {
+    "url": "https://www.tracking.me/",
+    "date": "2026-05-14",
+    "timestamp": "2026-05-14T08:38:40.673Z",
+    "psi_mobile": {
+      "lab": {
+        "lcp_ms": 13051.113449377106,
+        "fcp_ms": 8851.07607781759,
+        "cls": 0.000209,
+        "tbt_ms": 582.5,
+        "si_ms": 11331.766848405547,
+        "tti_ms": 32972.7571883984,
+        "page_load_ms": 6846,
+        "dom_content_loaded_ms": 4455
+      },
+      "scores": {
+        "performance": 0.41,
+        "accessibility": 0.94,
+        "best_practices": 0.69,
+        "seo": 0.92
+      },
+      "field": {
+        "lcp_ms": 4003,
+        "fid_ms": null,
+        "inp_ms": 199,
+        "cls": 0.05,
+        "fcp_ms": 3142,
+        "ttfb_ms": 1930
+      }
+    },
+    "psi_desktop": null,
+    "lighthouse_cli": {
+      "lcp_ms": 22640.031999999996,
+      "fcp_ms": 15600.147000000004,
+      "cls": 0,
+      "tbt_ms": 4542.510999999997,
+      "si_ms": 15600.147000000004,
+      "tti_ms": 26731.811999999998,
+      "performance_score": 0.25,
+      "page_load_ms": 5083,
+      "dom_content_loaded_ms": 1619
+    },
+    "errors": [
+      {
+        "source": "psi_desktop",
+        "message": "PSI API error 500: {\n  \"error\": {\n    \"code\": 500,\n    \"message\": \"Lighthouse returned error: Something went wrong.\",\n    \"errors\": [\n      {\n        \"message\": \"Lighthouse returned error: Something went wrong.\",\n        \"domain\": \"lighthouse\",\n        \"reason\": \"lighthouseError\"\n      }\n    ]\n  }\n}\n"
+      }
+    ]
+  },
+  {
+    "url": "https://theeyesongroup.com/",
+    "date": "2026-05-14",
+    "timestamp": "2026-05-14T08:41:20.417Z",
+    "psi_mobile": {
+      "lab": {
+        "lcp_ms": 20875.13731662833,
+        "fcp_ms": 3348.0239597604987,
+        "cls": 0,
+        "tbt_ms": 427,
+        "si_ms": 18344.215398921522,
+        "tti_ms": 24557.42818622313,
+        "page_load_ms": 8186,
+        "dom_content_loaded_ms": 6989
+      },
+      "scores": {
+        "performance": 0.48,
+        "accessibility": 0.86,
+        "best_practices": 0.96,
+        "seo": 0.92
+      },
+      "field": {
+        "lcp_ms": 6612,
+        "fid_ms": null,
+        "inp_ms": 121,
+        "cls": null,
+        "fcp_ms": 5530,
+        "ttfb_ms": 1295
+      }
+    },
+    "psi_desktop": {
+      "lab": {
+        "lcp_ms": 3282.0798133134585,
+        "fcp_ms": 769.0159626626915,
+        "cls": 0.100312,
+        "tbt_ms": 508.00000000000045,
+        "si_ms": 4355.415755619813,
+        "tti_ms": 5733.159949449135,
+        "page_load_ms": 7612,
+        "dom_content_loaded_ms": 5577
+      },
+      "scores": {
+        "performance": 0.48,
+        "accessibility": 0.93,
+        "best_practices": 1,
+        "seo": 0.92
+      },
+      "field": {
+        "lcp_ms": 2655,
+        "fid_ms": null,
+        "inp_ms": 47,
+        "cls": null,
+        "fcp_ms": 2198,
+        "ttfb_ms": 677
+      }
+    },
+    "lighthouse_cli": {
+      "lcp_ms": 41351.129499999995,
+      "fcp_ms": 5475.9394999999995,
+      "cls": 0,
+      "tbt_ms": 1191,
+      "si_ms": 19190.210662965615,
+      "tti_ms": 62545.31539999998,
+      "performance_score": 0.32,
+      "page_load_ms": 7075,
+      "dom_content_loaded_ms": 6130
+    },
+    "errors": []
+  },
+  {
+    "url": "https://shakersa.com/",
+    "date": "2026-05-14",
+    "timestamp": "2026-05-14T08:43:10.013Z",
+    "psi_mobile": null,
+    "psi_desktop": null,
+    "lighthouse_cli": {
+      "lcp_ms": 14051.675,
+      "fcp_ms": 4863.675,
+      "cls": 0.12754700000000002,
+      "tbt_ms": 5774.999999999993,
+      "si_ms": 14711.456592335739,
+      "tti_ms": 45552.625,
+      "performance_score": 0.22,
+      "page_load_ms": null,
+      "dom_content_loaded_ms": 3166
+    },
+    "errors": [
+      {
+        "source": "psi_mobile",
+        "message": "PSI API error 500: {\n  \"error\": {\n    \"code\": 500,\n    \"message\": \"Lighthouse returned error: Something went wrong.\",\n    \"errors\": [\n      {\n        \"message\": \"Lighthouse returned error: Something went wrong.\",\n        \"domain\": \"lighthouse\",\n        \"reason\": \"lighthouseError\"\n      }\n    ]\n  }\n}\n"
+      },
+      {
+        "source": "psi_desktop",
+        "message": "PSI API error 500: {\n  \"error\": {\n    \"code\": 500,\n    \"message\": \"Lighthouse returned error: Something went wrong.\",\n    \"errors\": [\n      {\n        \"message\": \"Lighthouse returned error: Something went wrong.\",\n        \"domain\": \"lighthouse\",\n        \"reason\": \"lighthouseError\"\n      }\n    ]\n  }\n}\n"
+      }
+    ]
+  },
+  {
+    "url": "https://jo.bcitechstore.com/",
+    "date": "2026-05-14",
+    "timestamp": "2026-05-14T08:45:25.482Z",
+    "psi_mobile": null,
+    "psi_desktop": null,
+    "lighthouse_cli": {
+      "lcp_ms": 19131.7725,
+      "fcp_ms": 5929.2725,
+      "cls": 0.6550199999999999,
+      "tbt_ms": 963.5,
+      "si_ms": 7662.391192049336,
+      "tti_ms": 19977.119525000002,
+      "performance_score": 0.14,
+      "page_load_ms": 1380,
+      "dom_content_loaded_ms": 873
+    },
+    "errors": [
+      {
+        "source": "psi_mobile",
+        "message": "PSI API error 500: {\n  \"error\": {\n    \"code\": 500,\n    \"message\": \"Lighthouse returned error: Something went wrong.\",\n    \"errors\": [\n      {\n        \"message\": \"Lighthouse returned error: Something went wrong.\",\n        \"domain\": \"lighthouse\",\n        \"reason\": \"lighthouseError\"\n      }\n    ]\n  }\n}\n"
+      },
+      {
+        "source": "psi_desktop",
+        "message": "PSI API error 500: {\n  \"error\": {\n    \"code\": 500,\n    \"message\": \"Lighthouse returned error: Something went wrong.\",\n    \"errors\": [\n      {\n        \"message\": \"Lighthouse returned error: Something went wrong.\",\n        \"domain\": \"lighthouse\",\n        \"reason\": \"lighthouseError\"\n      }\n    ]\n  }\n}\n"
+      }
+    ]
+  }
+]

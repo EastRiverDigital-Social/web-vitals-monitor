@@ -1,0 +1,402 @@
+[
+  {
+    "url": "https://iq.bcitechstore.com/",
+    "date": "2026-08-30",
+    "timestamp": "2026-08-30T11:08:04.397Z",
+    "psi_mobile": {
+      "lab": {
+        "lcp_ms": 11702.047556660478,
+        "fcp_ms": 4224.016269383845,
+        "cls": 0.062283030739553845,
+        "tbt_ms": 181.0000000000009,
+        "si_ms": 22630.978078227497,
+        "tti_ms": 15711.054417800617,
+        "page_load_ms": 12385,
+        "dom_content_loaded_ms": 11485
+      },
+      "scores": {
+        "performance": 0.53,
+        "accessibility": 0.8,
+        "best_practices": 0.96,
+        "seo": 0.92
+      },
+      "field": null
+    },
+    "psi_desktop": {
+      "lab": {
+        "lcp_ms": 2061.0441518482376,
+        "fcp_ms": 946.0187310871313,
+        "cls": 0.04907306071808995,
+        "tbt_ms": 216.5,
+        "si_ms": 8624.008346938794,
+        "tti_ms": 3346.855501967924,
+        "page_load_ms": 12316,
+        "dom_content_loaded_ms": 11320
+      },
+      "scores": {
+        "performance": 0.72,
+        "accessibility": 0.75,
+        "best_practices": 0.96,
+        "seo": 0.92
+      },
+      "field": null
+    },
+    "lighthouse_cli": {
+      "lcp_ms": null,
+      "fcp_ms": null,
+      "cls": null,
+      "tbt_ms": null,
+      "si_ms": null,
+      "tti_ms": null,
+      "performance_score": null,
+      "page_load_ms": null,
+      "dom_content_loaded_ms": null
+    },
+    "errors": []
+  },
+  {
+    "url": "https://ps.bcitechstore.com/",
+    "date": "2026-08-30",
+    "timestamp": "2026-08-30T11:09:58.391Z",
+    "psi_mobile": {
+      "lab": {
+        "lcp_ms": 12526.0785162449,
+        "fcp_ms": 6151.037572190813,
+        "cls": 0.02670178481045916,
+        "tbt_ms": 1776.9900921690787,
+        "si_ms": 23832.81625707727,
+        "tti_ms": 21217.333350125366,
+        "page_load_ms": 13122,
+        "dom_content_loaded_ms": 11690
+      },
+      "scores": {
+        "performance": 0.28,
+        "accessibility": 0.76,
+        "best_practices": 0.73,
+        "seo": 0.85
+      },
+      "field": {
+        "lcp_ms": 10040,
+        "fid_ms": null,
+        "inp_ms": null,
+        "cls": 0.02,
+        "fcp_ms": 20391,
+        "ttfb_ms": 2575
+      }
+    },
+    "psi_desktop": {
+      "lab": {
+        "lcp_ms": 1941.0292851487911,
+        "fcp_ms": 961.0138553392133,
+        "cls": 0.06655037847144811,
+        "tbt_ms": 839.483185534509,
+        "si_ms": 8397.59962447506,
+        "tti_ms": 5084.674234755039,
+        "page_load_ms": 12659,
+        "dom_content_loaded_ms": 11359
+      },
+      "scores": {
+        "performance": 0.52,
+        "accessibility": 0.71,
+        "best_practices": 0.77,
+        "seo": 0.85
+      },
+      "field": {
+        "lcp_ms": 4959,
+        "fid_ms": null,
+        "inp_ms": 50,
+        "cls": 0.11,
+        "fcp_ms": 4532,
+        "ttfb_ms": 2344
+      }
+    },
+    "lighthouse_cli": {
+      "lcp_ms": null,
+      "fcp_ms": null,
+      "cls": null,
+      "tbt_ms": null,
+      "si_ms": null,
+      "tti_ms": null,
+      "performance_score": null,
+      "page_load_ms": null,
+      "dom_content_loaded_ms": null
+    },
+    "errors": []
+  },
+  {
+    "url": "https://www.tracking.me/",
+    "date": "2026-08-30",
+    "timestamp": "2026-08-30T11:14:13.236Z",
+    "psi_mobile": {
+      "lab": {
+        "lcp_ms": 17176.04342084707,
+        "fcp_ms": 9751.02431567436,
+        "cls": 0.01822600243013366,
+        "tbt_ms": 580.5,
+        "si_ms": 16924.88972287968,
+        "tti_ms": 32239.081824174013,
+        "page_load_ms": 7424,
+        "dom_content_loaded_ms": 7240
+      },
+      "scores": {
+        "performance": 0.4,
+        "accessibility": 0.94,
+        "best_practices": 0.69,
+        "seo": 0.92
+      },
+      "field": {
+        "lcp_ms": 2912,
+        "fid_ms": null,
+        "inp_ms": 239,
+        "cls": 0.07,
+        "fcp_ms": 2209,
+        "ttfb_ms": 1114
+      }
+    },
+    "psi_desktop": {
+      "lab": {
+        "lcp_ms": 2861.043277160304,
+        "fcp_ms": 1401.020548867482,
+        "cls": 0.0093809440028795,
+        "tbt_ms": 905.9999999999995,
+        "si_ms": 3422.1753515117352,
+        "tti_ms": 6809.152868875995,
+        "page_load_ms": 6817,
+        "dom_content_loaded_ms": 4784
+      },
+      "scores": {
+        "performance": 0.44,
+        "accessibility": 0.94,
+        "best_practices": 0.69,
+        "seo": 0.92
+      },
+      "field": {
+        "lcp_ms": 3088,
+        "fid_ms": null,
+        "inp_ms": 84,
+        "cls": 0.11,
+        "fcp_ms": 1885,
+        "ttfb_ms": 1011
+      }
+    },
+    "lighthouse_cli": {
+      "lcp_ms": 18588.968,
+      "fcp_ms": 10638.968,
+      "cls": 0.01822600243013366,
+      "tbt_ms": 2297.500000000002,
+      "si_ms": 10638.968,
+      "tti_ms": 27564.118,
+      "performance_score": 0.27,
+      "page_load_ms": 4055,
+      "dom_content_loaded_ms": 2842
+    },
+    "errors": []
+  },
+  {
+    "url": "https://theeyesongroup.com/",
+    "date": "2026-08-30",
+    "timestamp": "2026-08-30T11:16:19.284Z",
+    "psi_mobile": {
+      "lab": {
+        "lcp_ms": 32102.892718695803,
+        "fcp_ms": 3633.092640619375,
+        "cls": 0,
+        "tbt_ms": 402.5,
+        "si_ms": 20780.484763483866,
+        "tti_ms": 58653.38658076001,
+        "page_load_ms": 7457,
+        "dom_content_loaded_ms": 6616
+      },
+      "scores": {
+        "performance": 0.48,
+        "accessibility": 0.82,
+        "best_practices": 0.85,
+        "seo": 0.92
+      },
+      "field": {
+        "lcp_ms": 5607,
+        "fid_ms": null,
+        "inp_ms": 104,
+        "cls": null,
+        "fcp_ms": 4743,
+        "ttfb_ms": 985
+      }
+    },
+    "psi_desktop": {
+      "lab": {
+        "lcp_ms": 8402.533482419338,
+        "fcp_ms": 859.0461667478276,
+        "cls": 0.004296981618572052,
+        "tbt_ms": 1509.499999999999,
+        "si_ms": 3641.2659003571916,
+        "tti_ms": 8742.555283383592,
+        "page_load_ms": 5101,
+        "dom_content_loaded_ms": 1408
+      },
+      "scores": {
+        "performance": 0.36,
+        "accessibility": 0.93,
+        "best_practices": 0.85,
+        "seo": 0.92
+      },
+      "field": {
+        "lcp_ms": 3124,
+        "fid_ms": null,
+        "inp_ms": 53,
+        "cls": 0.01,
+        "fcp_ms": 2574,
+        "ttfb_ms": 1005
+      }
+    },
+    "lighthouse_cli": {
+      "lcp_ms": 60162.009999999995,
+      "fcp_ms": 7716.842000000001,
+      "cls": 0,
+      "tbt_ms": 1457,
+      "si_ms": 20966.08827743013,
+      "tti_ms": 62054.94975,
+      "performance_score": 0.3,
+      "page_load_ms": 1564,
+      "dom_content_loaded_ms": 600
+    },
+    "errors": []
+  },
+  {
+    "url": "https://shakersa.com/",
+    "date": "2026-08-30",
+    "timestamp": "2026-08-30T11:17:49.448Z",
+    "psi_mobile": {
+      "lab": {
+        "lcp_ms": 8177.018819725747,
+        "fcp_ms": 3601.0077504853816,
+        "cls": 0,
+        "tbt_ms": 5263.500000000001,
+        "si_ms": 10670.66808649239,
+        "tti_ms": 18089.882905767838,
+        "page_load_ms": 11833,
+        "dom_content_loaded_ms": 1302
+      },
+      "scores": {
+        "performance": 0.29,
+        "accessibility": 0.79,
+        "best_practices": 0.96,
+        "seo": 0.85
+      },
+      "field": {
+        "lcp_ms": 7047,
+        "fid_ms": null,
+        "inp_ms": 354,
+        "cls": 0.02,
+        "fcp_ms": 6553,
+        "ttfb_ms": 5760
+      }
+    },
+    "psi_desktop": {
+      "lab": {
+        "lcp_ms": 1062.0051789349454,
+        "fcp_ms": 761.0033685574091,
+        "cls": 0.02585140553338031,
+        "tbt_ms": 1743.9999999999982,
+        "si_ms": 2367.574421394004,
+        "tti_ms": 5259.551188902613,
+        "page_load_ms": 7148,
+        "dom_content_loaded_ms": 2188
+      },
+      "scores": {
+        "performance": 0.63,
+        "accessibility": 0.79,
+        "best_practices": 0.96,
+        "seo": 0.85
+      },
+      "field": {
+        "lcp_ms": 7016,
+        "fid_ms": null,
+        "inp_ms": 127,
+        "cls": 0.03,
+        "fcp_ms": 6513,
+        "ttfb_ms": 5891
+      }
+    },
+    "lighthouse_cli": {
+      "lcp_ms": 11801.722500000002,
+      "fcp_ms": 4285.6145,
+      "cls": 0,
+      "tbt_ms": 11823.239499999996,
+      "si_ms": 8865.06685663933,
+      "tti_ms": 21777.845250000002,
+      "performance_score": 0.28,
+      "page_load_ms": 6534,
+      "dom_content_loaded_ms": 993
+    },
+    "errors": []
+  },
+  {
+    "url": "https://jo.bcitechstore.com/",
+    "date": "2026-08-30",
+    "timestamp": "2026-08-30T11:22:17.755Z",
+    "psi_mobile": {
+      "lab": {
+        "lcp_ms": 23621.296702106927,
+        "fcp_ms": 6171.01352562323,
+        "cls": 0.0110389342420923,
+        "tbt_ms": 123,
+        "si_ms": 9184.582492520592,
+        "tti_ms": 24259.273898751104,
+        "page_load_ms": 2122,
+        "dom_content_loaded_ms": 935
+      },
+      "scores": {
+        "performance": 0.56,
+        "accessibility": 0.79,
+        "best_practices": 0.92,
+        "seo": 0.85
+      },
+      "field": {
+        "lcp_ms": 4399,
+        "fid_ms": null,
+        "inp_ms": 149,
+        "cls": 0.17,
+        "fcp_ms": 3990,
+        "ttfb_ms": 3644
+      }
+    },
+    "psi_desktop": {
+      "lab": {
+        "lcp_ms": 1921.0102356873917,
+        "fcp_ms": 961.0048953287526,
+        "cls": 0.7347485035067032,
+        "tbt_ms": 764.4953425172275,
+        "si_ms": 3145.603385149555,
+        "tti_ms": 4006.5243438395873,
+        "page_load_ms": 4070,
+        "dom_content_loaded_ms": 2121
+      },
+      "scores": {
+        "performance": 0.32,
+        "accessibility": 0.68,
+        "best_practices": 0.96,
+        "seo": 0.85
+      },
+      "field": {
+        "lcp_ms": 4193,
+        "fid_ms": null,
+        "inp_ms": 49,
+        "cls": 0.82,
+        "fcp_ms": 3853,
+        "ttfb_ms": 3541
+      }
+    },
+    "lighthouse_cli": {
+      "lcp_ms": null,
+      "fcp_ms": null,
+      "cls": null,
+      "tbt_ms": null,
+      "si_ms": null,
+      "tti_ms": null,
+      "performance_score": null,
+      "page_load_ms": null,
+      "dom_content_loaded_ms": null
+    },
+    "errors": []
+  }
+]

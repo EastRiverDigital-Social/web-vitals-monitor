@@ -11,19 +11,20 @@ Automated daily Core Web Vitals tracking.
 - https://shakersa.com/
 - https://jo.bcitechstore.com/
 
-## Latest Results (2026-11-25)
+## Latest Results (2026-11-26)
 
 | URL | Perf (Mobile) | Perf (Desktop) | Page Load (Mobile) | Page Load (Desktop) | LCP (Mobile) | CLS (Mobile) |
 |-----|--------------|----------------|-------------------|--------------------|--------------|--------------|
-| iq.bcitechstore.com | 64 :orange_circle: | 90 :green_circle: | 11.49s | 10.65s | 6.53s | 0.008 |
-| ps.bcitechstore.com | 64 :orange_circle: | 91 :green_circle: | 10.99s | 10.68s | 10.13s | 0.000 |
-| www.tracking.me | 86 :orange_circle: | 79 :orange_circle: | 572ms | 744ms | 760ms | 0.025 |
-| theeyesongroup.com | 58 :orange_circle: | 96 :green_circle: | 5.51s | 4.94s | 6.90s | 0.000 |
-| shakersa.com | 59 :orange_circle: | 69 :orange_circle: | 5.12s | 5.05s | 7.50s | 0.003 |
-| jo.bcitechstore.com | 63 :orange_circle: | 97 :green_circle: | 1.23s | 1.10s | 14.13s | 0.001 |
+| iq.bcitechstore.com | 61 :orange_circle: | 88 :orange_circle: | 11.15s | 10.85s | 13.59s | 0.008 |
+| ps.bcitechstore.com | 62 :orange_circle: | 90 :green_circle: | 11.18s | 10.48s | 13.38s | 0.000 |
+| www.tracking.me | 89 :orange_circle: | 84 :orange_circle: | 689ms | 922ms | 767ms | 0.025 |
+| theeyesongroup.com | 82 :orange_circle: | 98 :green_circle: | 5.18s | 2.72s | 3.15s | 0.000 |
+| shakersa.com | 56 :orange_circle: | 60 :orange_circle: | 2.43s | 10.58s | 16.41s | 0.000 |
+| jo.bcitechstore.com | 65 :orange_circle: | 97 :green_circle: | 908ms | 1.23s | 15.09s | 0.000 |
 
 ## Historical Reports
 
+- [2026-11-26](reports/2026-11-26.md)
 - [2026-11-25](reports/2026-11-25.md)
 - [2026-11-24](reports/2026-11-24.md)
 - [2026-11-23](reports/2026-11-23.md)
@@ -53,19 +54,18 @@ Automated daily Core Web Vitals tracking.
 - [2026-10-29](reports/2026-10-29.md)
 - [2026-10-28](reports/2026-10-28.md)
 - [2026-10-27](reports/2026-10-27.md)
-- [2026-10-26](reports/2026-10-26.md)
 
 ## Trend (Last 7 Days - Mobile Performance)
 
-| URL | 2026-11-18 | 2026-11-19 | 2026-11-20 | 2026-11-21 | 2026-11-23 | 2026-11-24 | 2026-11-25 |
+| URL | 2026-11-19 | 2026-11-20 | 2026-11-21 | 2026-11-23 | 2026-11-24 | 2026-11-25 | 2026-11-26 |
 |-----|------|------|------|------|------|------|------|
-| iq.bcitechstore.com | 56 | 63 | 63 | 67 | 66 | 63 | 64 |
-| ps.bcitechstore.com | 62 | 63 | 62 | 61 | - | 63 | 64 |
-| www.tracking.me | 91 | 76 | 73 | 91 | 91 | 85 | 86 |
-| theeyesongroup.com | 55 | 46 | 31 | 49 | 78 | 76 | 58 |
-| shakersa.com | 38 | 55 | 39 | 53 | 48 | 40 | 59 |
-| jo.bcitechstore.com | 68 | 65 | 58 | 65 | 66 | 65 | 63 |
+| iq.bcitechstore.com | 63 | 63 | 67 | 66 | 63 | 64 | 61 |
+| ps.bcitechstore.com | 63 | 62 | 61 | - | 63 | 64 | 62 |
+| www.tracking.me | 76 | 73 | 91 | 91 | 85 | 86 | 89 |
+| theeyesongroup.com | 46 | 31 | 49 | 78 | 76 | 58 | 82 |
+| shakersa.com | 55 | 39 | 53 | 48 | 40 | 59 | 56 |
+| jo.bcitechstore.com | 65 | 58 | 65 | 66 | 65 | 63 | 65 |
 
 ---
 
-_Last updated: 2026-11-25T16:50:37.907Z_
+_Last updated: 2026-11-26T16:23:51.814Z_
